@@ -9,6 +9,7 @@ class V2rayCore < Formula
     bin.install "v2ray"
     bin.install "v2ctl"
     bin.install "geosite.dat"
+    bin.install "geoip.dat"
     etc.install "config.json"
   end
 
