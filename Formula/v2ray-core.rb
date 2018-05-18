@@ -1,9 +1,9 @@
 class V2rayCore < Formula
   desc "A platform for building proxies to bypass network restrictions."
   homepage "https://www.v2ray.com/"
-  version "v3.14"
+  version "v3.22"
   url "https://github.com/v2ray/v2ray-core/releases/download/#{version}/v2ray-macos.zip"
-  sha256 "8ac788cab01289ebf964c724d35eeb9c458a370e204956cf1a2ca3f5c433e961"
+  sha256 "f974f301ac9bf7ed2ba8a6211ef213ced3646312b1c38b23d7b516747ecbc0f9"
 
   def install
     bin.install "v2ray"
